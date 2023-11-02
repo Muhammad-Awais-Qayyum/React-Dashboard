@@ -1,0 +1,23 @@
+.cards{
+    display: flex;
+    
+}
+
+.parent{
+    width: 100%;
+}
+
+@media screen and (max-width:1200px){
+    .cards{
+        flex-direction: column;
+        row-gap: 0.5rem;
+    }
+    .parent{
+        height: 9rem;
+    }
+}
+@media screen and (max-width:768px){
+    .cards{
+        width: 90%;
+    }
+}

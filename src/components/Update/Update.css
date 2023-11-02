@@ -1,0 +1,25 @@
+
+.Updates{
+    background: white;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    width: 85%;
+    display: flex;
+     gap: 1rem;
+     font-size: 13px;
+     flex-direction: column;
+}
+
+
+.update{
+   display: flex;
+   gap: 0.5rem;
+    
+}
+img{
+    height: 3.2rem;
+    width: 3.2rem;
+}
+.noti>div>span:nth-of-type(1){
+    font-weight: bold!important;
+}
